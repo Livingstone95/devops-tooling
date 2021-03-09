@@ -67,8 +67,8 @@ h4.number {
     border-radius: 10px;
 }
 .box img{
-	max-width:100%;
-	width: 100%; 
+  max-width:100%;
+  width: 100%; 
 }
 
 .content-div {
@@ -333,6 +333,14 @@ input.save-btn {
 .delete-form {
     height: 220px;
 }
+.img_div {
+    min-height: 180px;
+}
+@media only screen and (min-width:1024px){
+.img_div {
+    width: 50%;
+}
+}
 @media only screen and (max-width:992px){
     .sidebar {
     position: relative!important;
@@ -349,7 +357,7 @@ input.save-btn {
 .main-content {
     margin-left: 0;
 }
-.col-md-2 {
+/*.col-md-2 {
     flex: 0 0 100%;
     max-width: 100%;
 }
@@ -357,7 +365,7 @@ input.save-btn {
     
     flex: 0 0 100%;
     max-width: 100%;
-}
+}*/
 .pop_col {
     width: 50%!important;
     -ms-flex: 0 0 83.333333%;

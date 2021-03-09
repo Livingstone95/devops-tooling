@@ -167,7 +167,7 @@ input:focus {
     margin: 0 auto;
     display: block;
     color: #fff;
-  
+    /*font-family: Messina Sans;*/
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -175,9 +175,10 @@ input:focus {
     color: #FFFFFF;
 }
 img.eye-img {
-    position: absolute;
-    right: 12%;
-    bottom: 25%;
+        cursor: pointer;
+    position: relative;
+    float: right;
+    margin-top: -39px;
 }
 .error-display span {
     color: #ef0505;
