@@ -5,7 +5,7 @@
      include('delete.php');
     session_start();
 
-if (!(isset($_SESSION['sess_user']) && $_SESSION['sess_user'] != '')) {
+if(!isset($_SESSION['sess_user'])) {
 
 header ("Location: login.php");
 
@@ -69,13 +69,13 @@ header ("Location: login.php");
 									    <option disabled selected>-- Select City --</option>
 									    <?php
 									        
-									        $environment_records = mysqli_query($conn, "SELECT  ip_address,environment_name From environments");  // Use select query here 
+									        $environment_records = mysqli_query($conn, "SELECT  environment_type,ip_address,environment_name From environments");  // Use select query here 
                                             
 									        while($data = mysqli_fetch_array($environment_records))
 									        {
 									        	
 
-									            echo "<option value='". $data['environment_name'] ."'>" .$data['environment_name'] ."" .$data['ip_address'] ."</option>";  // displaying data in option menu
+									            echo "<option value='". $data['environment_name'] ."'>" .$data['environment_type'] ." " .$data['environment_name'] ."" .$data['ip_address'] ."</option>";  // displaying data in option menu
 
 
 									        }
