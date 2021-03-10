@@ -30,7 +30,7 @@ if (isset($_POST['delete_environment'])) {
   
   
    // sql to delete a record
-      $sql_enviorn = "DELETE FROM environments WHERE environment_name ='$environ_select'";
+      $sql_enviorn = "DELETE FROM environments WHERE id = '$environ_select'";
 
       $results_enviorn = mysqli_query($conn, $sql_enviorn);
       //echo '<pre>'; print_r($results_enviorn); 
