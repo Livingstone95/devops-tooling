@@ -17,6 +17,7 @@
 <body>
  
 <!-- Overlay -->
+<div class="row">
 <div class="overlay" id="overlay" style="display:none;"></div>
 
 <!-- Popup -->

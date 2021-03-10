@@ -9,6 +9,7 @@ if(!isset($_SESSION['sess_user'])) {
 header ("Location: login.php");
 
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +28,7 @@ header ("Location: login.php");
 		<div class="row">
 			<div class="col-md-2 sidebar">
 				<div class="logo">
-					<img class="logo-img" src="images/logo.png" alt="" >
+					<img class="logo-img" src="images/Darey_1.png" alt="" >
 				</div>
 				<div class="sidebar-menus">
 					<ul>
