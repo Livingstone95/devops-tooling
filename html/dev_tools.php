@@ -26,14 +26,14 @@ header ("Location: login.php");
 	 <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
  
       <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
-     
+   
 </head>
 <body>
 	<div class="container-fluid dashboard-content">
 		<div class="row">
 			<div class="col-md-2 sidebar">
 				<div class="logo">
-					<img class="logo-img" src="images/logo.png" alt="" >
+					<img class="logo-img" src="images/Darey_1.png" alt="" >
 				</div>
 				<div class="sidebar-menus">
 					<ul>
@@ -53,9 +53,10 @@ header ("Location: login.php");
 					<div class="row">
 						<div class="accordion-container">
 	  						<div class="set">				
-								<a href="#">
+								<a href="#" class="tab-a">
 								    Continous Integration 
-								    <i class="fa fa-plus"></i>
+								    <!-- <i class="fa fa-plus"></i>
+								    <img src="images/plus.png"> -->
 								    <a class="edit" href="edit.php"> Edit</a>
 								</a>
 								<div class="content">
@@ -88,9 +89,9 @@ header ("Location: login.php");
 								</div>
 						 	</div>
 							 <div class="set">
-							    <a href="#">
+							    <a href="#" class="tab-a">
 							      Cloud 
-							      <i class="fa fa-plus"></i>
+							      <!-- <i class="fa fa-plus"></i> -->
 							      <a class="edit" href="edit.php"> Edit</a>
 							    </a>
 							    <div class="content">
@@ -123,9 +124,9 @@ header ("Location: login.php");
 							</div>
 						</div>
 							<div class="set">
-							    <a href="#">
+							    <a href="#" class="tab-a">
 							      Monitor 
-							      <i class="fa fa-plus"></i>
+							     <!--  <i class="fa fa-plus"></i> -->
 							      <a class="edit" href="edit.php"> Edit</a>
 							    </a>
 							    <div class="content">
@@ -158,9 +159,9 @@ header ("Location: login.php");
 							    </div>
 							</div>
 							<div class="set">
-							    <a href="#">
+							    <a href="#" class="tab-a">
 							      Version Control 
-							      <i class="fa fa-plus"></i> 
+							     <!--  <i class="fa fa-plus"></i>  -->
 							      <a class="edit" href="edit.php"> Edit</a>
 							    </a>
 							    <div class="content">
@@ -193,9 +194,9 @@ header ("Location: login.php");
 							    </div>
 							</div>
 							<div class="set">
-							      <a href="#">
+							      <a href="#" class="tab-a">
 							      IAAC
-							      <i class="fa fa-plus"></i> 
+							     <!--  <i class="fa fa-plus"></i>  -->
 							      <a class="edit" href="edit.php"> Edit</a>
 							    </a>
 							    <div class="content">
@@ -228,9 +229,9 @@ header ("Location: login.php");
 							    </div>
 							</div>
 							<div class="set">
-							   <a href="#">
+							   <a href="#" class="tab-a">
 							      SCM
-							      <i class="fa fa-plus"></i>
+							      <!-- <i class="fa fa-plus"></i> -->
 							      <a class="edit" href="edit.php"> Edit</a> 
 							    </a>
 							    <div class="content">
@@ -263,9 +264,9 @@ header ("Location: login.php");
 							    </div>
 							</div>
 							<div class="set">
-							    <a href="#">
+							    <a href="#" class="tab-a">
 							      Code Quality
-							      <i class="fa fa-plus"></i>
+							      <!-- <i class="fa fa-plus"></i> -->
 							      <a class="edit" href="edit.php"> Edit</a> 
 							    </a>
 							    <div class="content">
@@ -298,9 +299,9 @@ header ("Location: login.php");
 							    </div>
 							</div>
 							<div class="set">
-							     <a href="#">
+							     <a href="#" class="tab-a">
 							      Containrization
-							      <i class="fa fa-plus"></i> 
+							      <!-- <i class="fa fa-plus"></i>  -->
 							      <a class="edit" href="edit.php"> Edit</a>
 							    </a>
 							    <div class="content">
