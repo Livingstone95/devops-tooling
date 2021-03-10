@@ -151,7 +151,7 @@ a.edit {
   background:rgba(0,0,0,0.8);
   opacity:0.8;
   filter:alpha(opacity=80);
-  position:absolute;
+  position:fixed;
   top:0px;
   bottom:0px;
   left:0px;
@@ -319,13 +319,7 @@ input.save-btn {
     padding: 12px;
     color: #fff;
 }
-/*ul.image-list li {
-    display: inline-block;
-}*/
-/*.img_div {
-    min-height: 167px;
-    padding-top: 20px;
-}*/
+
 .img-sec {
     border: 1px solid #ACACAC;
         padding: 20px;
@@ -333,14 +327,36 @@ input.save-btn {
 .delete-form {
     height: 220px;
 }
+
 .img_div {
     min-height: 180px;
+    text-align: center;
+    border: 1px solid #ACACAC;
+    position: relative;
 }
-@media only screen and (min-width:1024px){
-.img_div {
+.img_div img {
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@media only screen and (max-width:1400px){
+  .img_div {
     width: 50%;
 }
+    }
+@media only screen and (max-width:1024px){
+
+.box {
+    min-height: 168px;
 }
+.dashboard_home .box {
+    min-height: 210px;
+}
+}
+
 @media only screen and (max-width:992px){
     .sidebar {
     position: relative!important;
@@ -348,24 +364,21 @@ input.save-btn {
     width: 100%;
     padding: 20px 36px!important;
 }
+.main-content {
+    width: 100%;
+}
 .sidebar-menus{
     margin-top: -44px;
 }
 .sidebar-menus ul li {
     display: inline-block!important;
+        padding-left: 10px;
+    padding-right: 10px;
 }
 .main-content {
     margin-left: 0;
 }
-/*.col-md-2 {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.col-md-10 {
-    
-    flex: 0 0 100%;
-    max-width: 100%;
-}*/
+
 .pop_col {
     width: 50%!important;
     -ms-flex: 0 0 83.333333%;
@@ -374,8 +387,9 @@ input.save-btn {
     float: left;
 }
 .img_div {
-    flex: 0 0 33%!important;
-    max-width: 33%!important;
+    flex: 0 0 100%!important;
+    max-width: 100%!important;
+    width: 100%!important;
 }
 .sidebar-menus li {
     margin: 25px 0;
@@ -386,10 +400,11 @@ input.save-btn {
     margin-top: -34px;
 }
 .sidebar-menus img {
-    width: 10%;
+    display: none;
 }
 span.menu-title {
-    font-size: 15px;
+    font-size: 20px;
+    margin: 0;
 }
 .logo {
     padding-bottom: 0px;

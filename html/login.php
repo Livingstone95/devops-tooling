@@ -114,7 +114,7 @@ input#remember {
 							<p class="instr-content" > Fill in details to log in to your account</p>
 						</div>
 						<div class="reg-form">
-							<form action="" method = "post">
+							<form action="home.php" method = "post">
 							<fieldset form="form">
 							  <legend>Email</legend>
 							 

@@ -43,7 +43,7 @@ header ("Location: login.php");
 				<div class="titles">
 					<h4>Dashboard</h4>
 				</div>
-				<div class="inner-content">
+				<div class="inner-content dashboard_home">
 					<div class="row">
 						<div class="col-md-9">
 							<div class="row">
